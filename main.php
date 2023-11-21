@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . '/../lib/apiinc.php';
+require __DIR__ . 'lib/apiinc.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $action = $_POST['action'];
